@@ -139,6 +139,5 @@ button8.grid(row=5,column=3)
 button9 = Button(root,text = ' ',font= 'Arial 10 bold',height=3,width=6,bg="Pink",fg="Black",command=lambda: BtnClick(button9))
 button9.grid(row=5,column=4)
 
-
 root.mainloop()
 
