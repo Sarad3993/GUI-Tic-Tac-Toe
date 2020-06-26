@@ -6,11 +6,7 @@ from tkinter import messagebox # for alert message pop-up
 root = Tk() # for creating display window (object or instance of Tk class)
 root.title('"Welcome to TicTacToe"')
 root.geometry('375x300') # for window size
-
-# for fixed window size
-
-root.maxsize(375,300)
-root.minsize(375,300)
+root.resizable(0,0) # for fixed window size 
 
 player1 = StringVar()
 player2 = StringVar()
