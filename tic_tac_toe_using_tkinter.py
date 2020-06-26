@@ -7,6 +7,11 @@ root = Tk() # for creating display window
 root.title('"Welcome to TicTacToe"')
 root.geometry('375x300') # for window size
 
+# for fixed window size
+
+root.maxsize(375,300)
+root.minsize(375,300)
+
 player1 = StringVar()
 player2 = StringVar()
 p1 = StringVar()
