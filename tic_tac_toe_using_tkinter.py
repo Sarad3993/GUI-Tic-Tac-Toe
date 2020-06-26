@@ -3,7 +3,7 @@
 from tkinter import * # to import everything from tkinter module
 from tkinter import messagebox # for alert message pop-up
 
-root = Tk() # for creating display window
+root = Tk() # for creating display window (object or instance of Tk class)
 root.title('"Welcome to TicTacToe"')
 root.geometry('375x300') # for window size
 
